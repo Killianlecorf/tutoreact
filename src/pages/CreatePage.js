@@ -1,14 +1,12 @@
 import React from 'react';
-import BlocInfo from '../components/BlocInfo';
 import Header from '../components/Header';
 
-const pageInfo = () => {
+const CreatePage = () => {
     return (
         <div>
             <Header />
-            <BlocInfo />
         </div>
     );
 };
 
-export default pageInfo;
+export default CreatePage;
