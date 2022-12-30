@@ -1,0 +1,13 @@
+.image-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 80vh;
+
+    .img-content{
+        width: 80%;
+        height: 90%;
+        background-color: rgb(229, 229, 229);
+    }
+}
