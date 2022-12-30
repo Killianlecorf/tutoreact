@@ -3,14 +3,21 @@ body{
 }
 
 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
+    width: 10%;
+    height: 50%;
+    transition: .2s ease;
 }
 
 a:hover{
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-    text-shadow: 1px 2px 6px green;
+    transform: translate(-3% , -3%);
+    transition: .2s ease;
 }
