@@ -6,8 +6,14 @@
     height: 80vh;
 
     .img-content{
+        display: flex;
+        align-items: center;
         width: 80%;
         height: 90%;
-        background-color: rgb(229, 229, 229);
+
+        .img{
+            width: 100%;
+            height: 50%;
+        }
     }
 }
