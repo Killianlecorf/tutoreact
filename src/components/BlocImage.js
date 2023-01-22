@@ -4,7 +4,7 @@ const BlocImage = ({ img }) => {
     return (
         <div className='image-body'>
             <div className="img-content">
-                <img src={ img } alt="" />
+                <img className='img' src={ img } alt="chipadi padoum" />
             </div>
         </div>
     );
